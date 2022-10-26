@@ -14,10 +14,10 @@
       "embedTitle": "Es ist etwas schiefgelaufen!",
       "embedColor": "#ff0000",
       "ERRORCODE": {
-        "noVC": "Du musst in einem Voice-Channel sein um den Musik-Bot zu starten",
-        "noTracksInQueue": "Kein Song mehr in der Queue",
-        "sameVC": "Sei Bitte im selben Talk wie der Bot",
-        "noSong": "Derzeit ist kein Song am Spielen",
+        "noVC": "Ey Spackie geh Talk sonst nix gehn",
+        "noTracksInQueue": "Kein Lied drin du Arschloch",
+        "sameVC": "Komm Talk wie ich du Hund",
+        "noSong": "Bin gerad Puff, sag lied",
         "noLyricsFound": "Ich habe keine Lyrics für den Song %%song%% gefunden!",
         "onMaintenance": "Der Bot ist zurzeit in Wartung",
         "currentlyDisabled": "Keine Lyrics für diesen Song gefunden!"
@@ -33,7 +33,10 @@
           "mulitple": "Es wurden %%count%% Songs übersprungen"
         },
         "lyrics": {
-          "title": "Lyrics des Songs %%song%%"
+          "lyrics": "Lyrics",
+          "title": "Lyrics von: ",
+          "notice": "ACHTUNG",
+          "full": "Für die Kompletten Lyrics bitte auf den Link klicken"
         },
         "loop": {
           "title": "Loop",
