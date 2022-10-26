@@ -11,11 +11,11 @@
   },
   "MUSIKBOT": {
     "ERROR": {
-      "embedTitle": "Es ist etwas schiefgelaufen!",
+      "embedTitle": "Something went wrong!",
       "embedColor": "#ff0000",
       "ERRORCODE": {
-        "noVC": "Du musst in einem Voice-Channel sein um den Musik-Bot zu starten",
-        "noTracksInQueue": "Kein Song mehr in der Queue",
+        "noVC": "You need to be in a voice channel to start the music bot",
+        "noTracksInQueue": "No more songs in the queue",
         "sameVC": "Sei Bitte im selben Talk wie der Bot",
         "noSong": "Derzeit ist kein Song am Spielen",
         "noLyricsFound": "Ich habe keine Lyrics für den Song %%song%% gefunden!",
@@ -33,7 +33,10 @@
           "mulitple": "Es wurden %%count%% Songs übersprungen"
         },
         "lyrics": {
-          "title": "Lyrics des Songs %%song%%"
+          "lyrics": "Lyrics",
+          "title": "Lyrics von: ",
+          "notice": "ACHTUNG",
+          "full": "Für die Kompletten Lyrics bitte auf den Link klicken"
         },
         "loop": {
           "title": "Loop",
