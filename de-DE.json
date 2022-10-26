@@ -33,8 +33,11 @@
           "single": "Der Aktuelle Song wurde übersprungen",
           "mulitple": "Es wurden %%count%% Songs übersprungen"
         },
-        "lyrics": {
-          "title": "Lyrics des Songs %%song%%"
+	"lyrics": {
+"lyrics": "Lyrics",
+          "title": "Lyrics von: ",
+          "notice": "ACHTUNG",
+	  "full": "Für die Kompletten Lyrics bitte auf den Link klicken"
         },
         "loop": {
           "title": "Loop",
