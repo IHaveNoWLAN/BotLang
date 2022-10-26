@@ -1,0 +1,73 @@
+{
+  "GENEROUS": {
+    "ERROR": {
+      "embedTitle": "Es ist etwas schiefgelaufen!",
+      "embedColor": "#ff0000",
+      "ERRORCODE": {
+        "onMaintenance": "Der Bot ist zurzeit in Wartung",
+        "featureDisabled": "Dieses Feature ist momentan Deaktiviert!"
+      }
+    }
+  },
+  "MUSIKBOT": {
+    "ERROR": {
+      "embedTitle": "Es ist etwas schiefgelaufen!",
+      "embedColor": "#ff0000",
+      "ERRORCODE": {
+        "noVC": "Du musst in einem Voice-Channel sein um den Musik-Bot zu starten",
+        "noTracksInQueue": "Kein Song mehr in der Queue",
+        "sameVC": "Sei Bitte im selben Talk wie der Bot",
+        "noSong": "Derzeit ist kein Song am Spielen",
+        "noLyricsFound": "Ich habe keine Lyrics für den Song %%song%% gefunden!",
+        "onMaintenance": "Der Bot ist zurzeit in Wartung",
+        "currentlyDisabled": "Keine Lyrics für diesen Song gefunden!"
+      }
+    },
+    "GENEROUS": {
+      "embedColor": "#7a2f8f",
+      "CODE": {
+        "queueAdd": "wurde zur Queue hinzugefügt",
+        "queueAddPlaylist": "wurde als Playlist zur Queue hinzugefügt",
+        "skip": {
+          "single": "Der Aktuelle Song wurde übersprungen",
+          "mulitple": "Es wurden %%count%% Songs übersprungen"
+        },
+        "lyrics": {
+          "title": "Lyrics des Songs %%song%%"
+        },
+        "loop": {
+          "title": "Loop",
+          "on": "Loop ist jetzt an!",
+          "off": "Loop ist jetzt aus!"
+        },
+        "currentSong": {
+          "current": "Derzeitiger Song:",
+          "timelinePassed": ":red_square:",
+          "timelineComing": ":white_large_square:"
+        },
+        "nowPlaying": "Jetzte Spielt",
+        "stoppedSong": "Gestoppt",
+        "resumedSong": "Weiter",
+        "volume": {
+          "volume": "Lautstärke",
+          "set": "Die Lautstärke ist nun %%value%%",
+          "current": "Die Lautstärke liegt bei %%value%%"
+        },
+        "settings": {
+          "title": "Einstellungen",
+          "now": "Du hast deine Einstellungen wiefolgt geändert:",
+          "empheral": {
+            "title": "Sichtbarkeit",
+            "now": "Deine Commands sind nun",
+            "true": "Sichtbar für andere",
+            "false": "nicht Sichtbar für andere"
+          },
+          "language": {
+            "title": "Sprache",
+            "now": "Deine Sprache ist nun"
+          }
+        }
+      }
+    }
+  }
+}
