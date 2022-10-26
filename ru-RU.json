@@ -11,13 +11,13 @@
   },
   "MUSIKBOT": {
     "ERROR": {
-      "embedTitle": "Es ist etwas schiefgelaufen!",
+      "embedTitle": "Дефект!",
       "embedColor": "#ff0000",
       "ERRORCODE": {
-        "noVC": "Du musst in einem Voice-Channel sein um den Musik-Bot zu starten",
-        "noTracksInQueue": "Kein Song mehr in der Queue",
-        "sameVC": "Sei Bitte im selben Talk wie der Bot",
-        "noSong": "Derzeit ist kein Song am Spielen",
+        "noVC": "Тебе надо есть в голосовом канале если ты хочешь нача́ть музыкального бот",
+        "noTracksInQueue": "Никакие песни больше в очереди",
+        "sameVC": "Пожалуйста, будь в тот же канал как этот бот",
+        "noSong": "Сейчас никакая песня играет",
         "noLyricsFound": "Ich habe keine Lyrics für den Song %%song%% gefunden!",
         "onMaintenance": "Der Bot ist zurzeit in Wartung",
         "currentlyDisabled": "Keine Lyrics für diesen Song gefunden!"
@@ -33,37 +33,40 @@
           "mulitple": "Es wurden %%count%% Songs übersprungen"
         },
         "lyrics": {
-          "title": "Lyrics des Songs %%song%%"
+          "lyrics": "Lyrics",
+          "title": "Lyrics von: ",
+          "notice": "ACHTUNG",
+          "full": "Für die Kompletten Lyrics bitte auf den Link klicken"
         },
         "loop": {
-          "title": "Loop",
-          "on": "Loop ist jetzt an!",
-          "off": "Loop ist jetzt aus!"
+          "title": "Луп",
+          "on": "Сейчас луп включен!",
+          "off": "Сейчас луп выключен!"
         },
         "currentSong": {
-          "current": "Derzeitiger Song:",
+          "current": "Активная песня:",
           "timelinePassed": ":red_square:",
           "timelineComing": ":white_large_square:"
         },
-        "nowPlaying": "Jetzte Spielt",
-        "stoppedSong": "Gestoppt",
-        "resumedSong": "Weiter",
+        "nowPlaying": "Сейчас играет",
+        "stoppedSong": "Остановлен",
+        "resumedSong": "Дальше",
         "volume": {
-          "volume": "Lautstärke",
+          "volume": "Громкость",
           "set": "Die Lautstärke ist nun %%value%%",
           "current": "Die Lautstärke liegt bei %%value%%"
         },
         "settings": {
-          "title": "Einstellungen",
-          "now": "Du hast deine Einstellungen wiefolgt geändert:",
+          "title": "Настроикы",
+          "now": "Ты изменял настройки так:",
           "empheral": {
-            "title": "Sichtbarkeit",
-            "now": "Deine Commands sind nun",
-            "true": "Sichtbar für andere",
-            "false": "nicht Sichtbar für andere"
+            "title": "Видимость",
+            "now": "Сейчас твои команды есть",
+            "true": "Видимый для все",
+            "false": "не видимый для все"
           },
           "language": {
-            "title": "Sprache",
+            "title": "Язык",
             "now": "Deine Sprache ist nun"
           }
         }
