@@ -11,13 +11,13 @@
   },
   "MUSIKBOT": {
     "ERROR": {
-      "embedTitle": "Es ist etwas schiefgelaufen!",
+      "embedTitle": "Exeption ex = e.printStacktrace();",
       "embedColor": "#ff0000",
       "ERRORCODE": {
-        "noVC": "Du musst in einem Voice-Channel sein um den Musik-Bot zu starten",
-        "noTracksInQueue": "Kein Song mehr in der Queue",
-        "sameVC": "Sei Bitte im selben Talk wie der Bot",
-        "noSong": "Derzeit ist kein Song am Spielen",
+        "noVC": "user.getVoiceChannel() == null",
+        "noTracksInQueue": "queue.isEmpty() == true",
+        "sameVC": "user.getVoiceChannel() != bot.getVoiceChannel()",
+        "noSong": "player.getCurrentSong() == null",
         "noLyricsFound": "Ich habe keine Lyrics für den Song %%song%% gefunden!",
         "onMaintenance": "Der Bot ist zurzeit in Wartung",
         "currentlyDisabled": "Keine Lyrics für diesen Song gefunden!"
@@ -33,37 +33,40 @@
           "mulitple": "Es wurden %%count%% Songs übersprungen"
         },
         "lyrics": {
-          "title": "Lyrics des Songs %%song%%"
+          "lyrics": "Lyrics",
+          "title": "Lyrics von: ",
+          "notice": "ACHTUNG",
+          "full": "Für die Kompletten Lyrics bitte auf den Link klicken"
         },
         "loop": {
-          "title": "Loop",
-          "on": "Loop ist jetzt an!",
-          "off": "Loop ist jetzt aus!"
+          "title": "player.loop();",
+          "on": "player.loopOn();",
+          "off": "player.loopOff();"
         },
         "currentSong": {
-          "current": "Derzeitiger Song:",
+          "current": "player.current();",
           "timelinePassed": ":red_square:",
           "timelineComing": ":white_large_square:"
         },
-        "nowPlaying": "Jetzte Spielt",
-        "stoppedSong": "Gestoppt",
-        "resumedSong": "Weiter",
+        "nowPlaying": "player.nowPlaying();",
+        "stoppedSong": "player.stop();",
+        "resumedSong": "player.resume();",
         "volume": {
-          "volume": "Lautstärke",
+          "volume": "player.volume();",
           "set": "Die Lautstärke ist nun %%value%%",
           "current": "Die Lautstärke liegt bei %%value%%"
         },
         "settings": {
-          "title": "Einstellungen",
-          "now": "Du hast deine Einstellungen wiefolgt geändert:",
+          "title": "member.getSettings()",
+          "now": "Settings.save()",
           "empheral": {
-            "title": "Sichtbarkeit",
-            "now": "Deine Commands sind nun",
-            "true": "Sichtbar für andere",
-            "false": "nicht Sichtbar für andere"
+            "title": "Message.Visibitliy()",
+            "now": "Message.Visibitliy().set()",
+            "true": "Message.Visibitliy() = true",
+            "false": "Message.Visibitliy() = false"
           },
           "language": {
-            "title": "Sprache",
+            "title": "Message.Language()",
             "now": "Deine Sprache ist nun"
           }
         }
