@@ -20,7 +20,8 @@
         "noSong": "player.getCurrentSong() == null",
         "noLyricsFound": "Ich habe keine Lyrics für den Song %%song%% gefunden!",
         "onMaintenance": "Der Bot ist zurzeit in Wartung",
-        "currentlyDisabled": "Keine Lyrics für diesen Song gefunden!"
+        "currentlyDisabled": "Dieses Feature ist momentan Deaktiviert!",
+        "noLyrics": "Keine Lyrics für diesen Song gefunden!"
       }
     },
     "GENEROUS": {
