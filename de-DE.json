@@ -21,7 +21,7 @@
         "noLyricsFound": "Ich habe keine Lyrics für den Song %%song%% gefunden!",
         "onMaintenance": "Der Bot ist zurzeit in Wartung",
         "currentlyDisabled": "Dieses Feature ist momentan Deaktiviert!",
-        "currentlyDisabled": "Keine Lyrics für diesen Song gefunden!"
+        "noLyrics": "Keine Lyrics für diesen Song gefunden!"
       }
     },
     "GENEROUS": {
