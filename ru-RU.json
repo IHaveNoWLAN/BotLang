@@ -34,8 +34,8 @@
           "mulitple": "Es wurden %%count%% Songs übersprungen"
         },
         "lyrics": {
-          "lyrics": "Lyrics",
-          "title": "Lyrics von: ",
+          "lyrics": "Текст песни",
+          "title": "Текст песни из: ",
           "notice": "ACHTUNG",
           "full": "Für die Kompletten Lyrics bitte auf den Link klicken"
         },
