@@ -54,8 +54,8 @@
         "resumedSong": "Дальше",
         "volume": {
           "volume": "Громкость",
-          "set": "Die Lautstärke ist nun %%value%%",
-          "current": "Die Lautstärke liegt bei %%value%%"
+          "set": "Громкость сейчас лежит у %%value%%",
+          "current": "Громкость лежит у %%value%%"
         },
         "settings": {
           "title": "Настроикы",
@@ -68,7 +68,7 @@
           },
           "language": {
             "title": "Язык",
-            "now": "Deine Sprache ist nun"
+            "now": "Твой язык сейчас"
           }
         }
       }
