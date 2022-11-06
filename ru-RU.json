@@ -5,7 +5,7 @@
       "embedColor": "#ff0000",
       "ERRORCODE": {
         "onMaintenance": "Бот в обслуживании",
-        "featureDisabled": "Dieses Feature ist momentan Deaktiviert!"
+        "featureDisabled": "Эта функция сейчас не функционирует!"
       }
     }
   },
@@ -18,17 +18,17 @@
         "noTracksInQueue": "Никакие песни больше в очереди",
         "sameVC": "Пожалуйста, будь в тот же канал как этот бот",
         "noSong": "Сейчас никакая песня играет",
-        "noLyricsFound": "Ich habe keine Lyrics für den Song %%song%% gefunden!",
-        "onMaintenance": "Der Bot ist zurzeit in Wartung",
-        "currentlyDisabled": "Dieses Feature ist momentan Deaktiviert!",
-        "noLyrics": "Keine Lyrics für diesen Song gefunden!"
+        "noLyricsFound": "Я не отыскивал текста для этой песни (%%song%%)!",
+        "onMaintenance": "Бот сейчас в обслуживании",
+        "currentlyDisabled": "Эта функция сейчас не функционирует!",
+        "noLyrics": "Для этой песни я не отыскивал текста!"
       }
     },
     "GENEROUS": {
       "embedColor": "#7a2f8f",
       "CODE": {
-        "queueAdd": "wurde zur Queue hinzugefügt",
-        "queueAddPlaylist": "wurde als Playlist zur Queue hinzugefügt",
+        "queueAdd": "добавлял в очереди",
+        "queueAddPlaylist": "был добавляться в очереди как \nплейлист",
         "skip": {
           "single": "Der Aktuelle Song wurde übersprungen",
           "mulitple": "Es wurden %%count%% Songs übersprungen"
