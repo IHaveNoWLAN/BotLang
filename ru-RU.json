@@ -1,10 +1,10 @@
 {
   "GENEROUS": {
     "ERROR": {
-      "embedTitle": "Es ist etwas schiefgelaufen!",
+      "embedTitle": "Дефект!",
       "embedColor": "#ff0000",
       "ERRORCODE": {
-        "onMaintenance": "Der Bot ist zurzeit in Wartung",
+        "onMaintenance": "Бот в обслуживании",
         "featureDisabled": "Dieses Feature ist momentan Deaktiviert!"
       }
     }
