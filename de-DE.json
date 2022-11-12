@@ -34,7 +34,7 @@
           "mulitple": "Es wurden %%count%% Songs übersprungen"
         },
 	"lyrics": {
-"lyrics": "Lyrics",
+	  "lyrics": "Lyrics",
           "title": "Lyrics von: ",
           "notice": "ACHTUNG",
 	  "full": "Für die Kompletten Lyrics bitte auf den Link klicken"
@@ -46,6 +46,8 @@
         },
         "currentSong": {
           "current": "Derzeitiger Song:",
+	  "timeline": "Zeitleiste",
+	  "loopcount": "Anzahl der Loops",
           "timelinePassed": ":red_square:",
           "timelineComing": ":white_large_square:"
         },
