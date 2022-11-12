@@ -46,6 +46,8 @@
         },
         "currentSong": {
           "current": "Активная песня:",
+          "timeline": "Zeitleiste",
+          "loopcount": "Anzahl der Loops",
           "timelinePassed": ":red_square:",
           "timelineComing": ":white_large_square:"
         },
