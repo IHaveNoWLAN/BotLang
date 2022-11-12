@@ -46,8 +46,8 @@
         },
         "currentSong": {
           "current": "MUSIKBOT.GENEROUS.CODE.currentSong.current",
-          "timeline": "Zeitleiste",
-          "loopcount": "Anzahl der Loops",
+          "timeline": "MUSIKBOT.GENEROUS.CODE.currentSong.timeline",
+          "loopcount": "MUSIKBOT.GENEROUS.CODE.currentSong.loopcount",
           "timelinePassed": ":red_square:",
           "timelineComing": ":white_large_square:"
         },
